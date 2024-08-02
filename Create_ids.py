@@ -1,5 +1,4 @@
-try:
-    import Run_fb_enc
-    Run_fb_enc.main()
-except Exception as e:
-    print(f"An error occurred: {e}")
+# For example, if the function is named `start`
+import Run_fb_enc
+
+Run_fb_enc.start()
